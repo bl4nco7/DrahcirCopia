@@ -96,7 +96,7 @@ class Portada(Slide):
 # =========================================================
 # 3. DIAPOSITIVA: Lamina 1 (Álgebra exterior de Grassmann)
 # =========================================================
-class lamina_1(Slide):
+class lamina_1(BaseSlide):
     def construct(self):
         self.setup() 
         title_text, cursor, _ = self.get_title_mobjects("Álgebra exterior de Grassmann")
